@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Category.css";
+import "./Catogory.css";
 import api from "../../api"; // Axios instance
 
 const Category = () => {
