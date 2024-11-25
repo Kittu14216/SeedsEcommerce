@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import "./ProductDetails.css";
-import api from "../../api"; // Axios instance
+import api from "../../.api"; // Axios instance
 
 const ProductDetails = () => {
   const { slug } = useParams();
@@ -11,12 +11,10 @@ const ProductDetails = () => {
   const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
-    // Fetch product details using Axios
     api
       .get(`/products/${slug}/`)
       .then((response) => {
         setProduct(response.data);
-        // Fetch related products using the correct category slug
         if (response.data.category) {
           return api.get(`/products/?category=${response.data.category}`);
         }
@@ -119,7 +117,7 @@ const ProductDetails = () => {
         {relatedProducts.map((relatedProduct, index) => (
           <div key={index} className="related-product-card">
             <img
-              src={`http://localhost:8000${relatedProduct.image}`} // Updated image URL
+              src={`https://seedsbackend.onrender.com${relatedProduct.image}`} // Updated image URL
               alt={relatedProduct.name}
               className="related-product-image"
             />

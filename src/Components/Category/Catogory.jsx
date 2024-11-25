@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Catogory.css";
+import "./Category.css";
 import api from "../../api"; // Axios instance
 
 const Category = () => {
@@ -8,14 +8,10 @@ const Category = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    console.log("Fetching categories...");
-
-    // Fetch categories using Axios
     api
       .get("/categories/")
       .then((response) => {
         setCategories(response.data);
-        console.log("Fetched categories:", response.data);
       })
       .catch((error) => {
         console.error("Error fetching categories:", error);
