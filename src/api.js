@@ -1,7 +1,6 @@
-import axios from "axios";
-
+// api.js or config.js
 const api = axios.create({
-  baseURL: "http://localhost:8000/", // Ensure the baseURL matches your Django API
+  baseURL: "https://seedsbackend.onrender.com", // Update to your Render backend URL
 });
 
 export default api;
