@@ -37,7 +37,7 @@ const Products = () => {
           >
             <div className="product-box">
               <img
-                src={`http://localhost:8000${product.image}`} // Adjusted path for the image
+                src={`https://seedsbackend.onrender.com${product.image}`} // Adjusted path for the image
                 alt={product.name}
                 className="product-image"
               />

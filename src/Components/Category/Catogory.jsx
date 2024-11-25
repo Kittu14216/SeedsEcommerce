@@ -34,7 +34,7 @@ const Category = () => {
         {categories.map((category, index) => (
           <div key={index} className="category-box">
             <img
-              src={`http://localhost:8000${category.categoryimage}`} // Ensure the full URL is correct
+              src={`https://seedsbackend.onrender.com${category.categoryimage}`} // Ensure the full URL is correct
               alt={category.name}
               className="category-image"
               onError={(e) => {

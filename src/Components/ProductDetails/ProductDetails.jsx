@@ -54,7 +54,7 @@ const ProductDetails = () => {
       <div className="product-main">
         <div className="product-image">
           <img
-            src={`http://localhost:8000${product.image}`} // Updated image URL
+            src={`https://seedsbackend.onrender.com${product.image}`} // Updated image URL
             alt={product.name}
           />
         </div>
