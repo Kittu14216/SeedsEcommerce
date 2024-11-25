@@ -1,0 +1,89 @@
+{
+  "header_carousel_images": [
+    {
+      "headerimage": "/media/header_carousel_images/image1.jpg",
+      "alt_text": "Slide 1",
+      "caption": "Welcome to Our Store",
+      "order": 1
+    },
+    {
+      "headerimage": "/media/header_carousel_images/image2.jpg",
+      "alt_text": "Slide 2",
+      "caption": "Quality Products",
+      "order": 2
+    },
+    {
+      "headerimage": "/media/header_carousel_images/image3.jpg",
+      "alt_text": "Slide 3",
+      "caption": "Affordable Prices",
+      "order": 3
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vegetables",
+      "slug": "vegetables",
+      "categoryimage": "/media/category_images/vegetables.jpg",
+      "description": "Fresh and organic vegetables.",
+      "headerText": "Grow Your Own Vegetables"
+    },
+    {
+      "name": "Fruits",
+      "slug": "fruits",
+      "categoryimage": "/media/category_images/fruits.jpg",
+      "description": "Seasonal and exotic fruits.",
+      "headerText": "Taste the Best Fruits"
+    },
+    {
+      "name": "Herbs",
+      "slug": "herbs",
+      "categoryimage": "/media/category_images/herbs.jpg",
+      "description": "Aromatic and medicinal herbs.",
+      "headerText": "Healthy Living Starts Here"
+    }
+  ],
+  "products": [
+    {
+      "name": "Tomato Seeds",
+      "description": "High-yield tomato seeds.",
+      "quantity": 500,
+      "cost": 10.5,
+      "category": "Vegetables",
+      "image": "/media/product_images/tomato.jpg",
+      "slug": "tomato-seeds",
+      "botanical_name": "Solanum lycopersicum",
+      "variety": "Cherry",
+      "fruit_color": "Red",
+      "life_cycle": "Annual",
+      "taste": "Sweet",
+      "germination_rate": "85%",
+      "days_to_maturity": "70 days",
+      "difficulty_level": "Easy",
+      "sunlight_requirement": "Full Sun",
+      "sowing": "Sow directly into the soil.",
+      "soil": "Well-draining fertile soil.",
+      "watering": "Keep soil moist but not waterlogged."
+    },
+    {
+      "name": "Cucumber Seeds",
+      "description": "High-quality cucumber seeds.",
+      "quantity": 300,
+      "cost": 12.0,
+      "category": "Vegetables",
+      "image": "/media/product_images/cucumber.jpg",
+      "slug": "cucumber-seeds",
+      "botanical_name": "Cucumis sativus",
+      "variety": "English",
+      "fruit_color": "Green",
+      "life_cycle": "Annual",
+      "taste": "Crunchy and refreshing",
+      "germination_rate": "90%",
+      "days_to_maturity": "55 days",
+      "difficulty_level": "Medium",
+      "sunlight_requirement": "Full Sun",
+      "sowing": "Start indoors or direct sow outdoors.",
+      "soil": "Sandy loam with good drainage.",
+      "watering": "Moderate watering."
+    }
+  ]
+}
