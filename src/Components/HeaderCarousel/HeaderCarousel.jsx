@@ -55,7 +55,7 @@ const HeaderCarousel = () => {
               <div className="carousel-content">
                 <div className="carousel-image">
                   <img
-                    src={`http://localhost:8000${image.headerimage}`}
+                    src={`https://seedsbackend.onrender.com${image.headerimage}`} // Ensure the full URL is correct
                     alt={image.alt_text}
                   />
                   <Link to="/categories" className="view-products-button">
