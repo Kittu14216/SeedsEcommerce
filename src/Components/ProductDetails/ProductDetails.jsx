@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
-import "./ProductDetails.css";
-import api from "../../api"; // Axios instance
+import { Link } from "react-router-dom";
+import "./ProductDetails.css"; // Ensure this import is correct
+import api from "../../api"; // Correct import
 
 const ProductDetails = () => {
   const { slug } = useParams();
